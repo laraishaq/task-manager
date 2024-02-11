@@ -1,9 +1,7 @@
 const mongoose = require("mongoose");
 const validator = require("validator");
 
-mongoose.connect(
-  "mongodb+srv://hello:kOqEQoP419bV6Xso@cluster0.4g4inkv.mongodb.net/task-manager"
-);
+mongoose.connect(process.env.MONGODB_URL);
 
 //Define a user model
 //The model definition is where you define what makes up a user.
