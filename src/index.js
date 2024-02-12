@@ -1,4 +1,3 @@
-require("dotenv").config();
 const express = require("express");
 require("./db/mongoose"); //we dont want to actually grab anything from the file, we just want to ensure it runs and mongoose connects to the database
 const User = require("./models/user");
