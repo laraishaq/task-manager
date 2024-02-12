@@ -24,6 +24,7 @@
     "validator": "^13.11.0"
   },
   "devDependencies": {
+    "dotenv": "^16.4.2",
     "env-cmd": "^10.1.0"
   }
 }
